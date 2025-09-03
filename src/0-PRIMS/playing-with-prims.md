@@ -16,28 +16,42 @@ In your group, create a suite of the following primitives about a topic of your 
 - 1 array for the Numbers
 - 1 array of 5 objects that combines the Strings and Numbers into 1
 
-```javascript
-/**
- * Convert and declare here!
-**/
+```js
 // 5 Strings with `let`
-
+let game = "football"
+let pass = "spiral"
+let kick = "field goal"
+let pull = "foul"
+let score = "touchdown"
 
 // 5 Numbers with `const`
+const safety = 2
+const extraPoint = 1
+const fieldGoal = 3
+const touchdown = 7
+const touchdownFg = 10
 
+// 1 array for the Strings (VALUES)
+let gameActions = [game, pass, kick, pull, score]
 
-// 1 array for the Strings with the variable names
+// 1 array for the Numbers (VALUES)
+let scoring = [safety, extraPoint, fieldGoal, touchdown, touchdownFg]
 
-
-// 1 array for the Numbers with the variable names
-
+// arrays of the variable NAMES as strings
+let gameActionNames = ["game", "pass", "kick", "pull", "score"]
+let scoringNames = ["safety", "extraPoint", "fieldGoal", "touchdown", "touchdownFg"]
 
 /**
- * 1 array of 5 objects that combines the Strings
- * and Numbers into 1 object as 2 properties of
- * each object
+ * 1 array of 5 objects that combines the Strings and Numbers
+ * into 1 object (two properties per object)
 **/
-
+let plays = [
+  { action: game, points: touchdown },    
+  { action: pass, points: extraPoint },    
+  { action: kick, points: fieldGoal },     
+  { action: pull, points: safety },       
+  { action: score, points: touchdownFg }
+]
 
 ```
 
@@ -47,8 +61,8 @@ In your group, create a suite of the following primitives about a topic of your 
 
 Concatenate them with `+` operator.
 
-```javascript
-// Convert and play
+```js
+game
 ```
 
 Access position of individual characters at index.
