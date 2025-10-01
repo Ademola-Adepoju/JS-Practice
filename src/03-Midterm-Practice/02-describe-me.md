@@ -14,9 +14,27 @@ In small groups of 3-4 people, work through the following sections that ask you 
 
 Create a variable that is assigned a String that describes this image in 1-2 sentences.
 
+```js
+const imageDescriptionString = "A group of four young kittens, one orange and three tabby, are huddled together. All of the kittens have bright blue eyes."
+```
+
+```js
+console.log(imageDescriptionString)
+```
+
+
 ## 2. Array
 
 Create a variable that is assigned to an Array that has 4 or more values to describe this image.
+
+```js
+const imageDescriptionArray = [4, "kittens", "blue eyes", "fluffy", "tabby"]
+```
+
+```js
+console.log(imageDescriptionArray)
+```
+
 
 ## 3. Object
 
